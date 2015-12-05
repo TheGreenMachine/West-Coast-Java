@@ -1,6 +1,6 @@
 package com.edinarobotics.westcoast.commands;
 
-import com.edinarobotics.utils.gamepad.GamepadNew;
+import com.edinarobotics.utils.gamepad.Gamepad;
 import com.edinarobotics.westcoast.Components;
 import com.edinarobotics.westcoast.subsystems.Drivetrain;
 import edu.wpi.first.wpilibj.command.Command;
@@ -8,9 +8,9 @@ import edu.wpi.first.wpilibj.command.Command;
 public class GamepadDriveCommand extends Command {
 
     private Drivetrain drivetrain;
-    private GamepadNew gamepad;
+    private Gamepad gamepad;
 
-    public GamepadDriveCommand(GamepadNew gamepad){
+    public GamepadDriveCommand(Gamepad gamepad){
         super("gamepaddrivecommand");
         this.gamepad = gamepad;
         drivetrain = Components.getInstance().drivetrain;

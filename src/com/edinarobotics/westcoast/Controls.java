@@ -1,7 +1,7 @@
 package com.edinarobotics.westcoast;
 
 import com.edinarobotics.utils.gamepad.FilteredGamepad;
-import com.edinarobotics.utils.gamepad.GamepadNew;
+import com.edinarobotics.utils.gamepad.Gamepad;
 import com.edinarobotics.utils.gamepad.gamepadfilters.DeadzoneFilter;
 import com.edinarobotics.utils.gamepad.gamepadfilters.GamepadFilter;
 import com.edinarobotics.utils.gamepad.gamepadfilters.GamepadFilterSet;
@@ -14,7 +14,7 @@ public class Controls {
 
     private static Controls instance;
 
-    public final GamepadNew gamepad;
+    public final Gamepad gamepad;
 
     private Controls() {
         // Drivetrain control
