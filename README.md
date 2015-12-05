@@ -9,5 +9,5 @@ https://github.com/TheGreenMachine/1816-Utils-Java
 
 ##Import into IDE
 1. Import project
-2. Modify build path and add `networktables.jar`, and `wpilibj.jar` as libraries
+2. Modify build path and add `networktables.jar`, and `wpilib.jar` as libraries
 3. Modify build path and add '1816-Utils' as a library. 
