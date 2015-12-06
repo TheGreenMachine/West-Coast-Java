@@ -13,12 +13,12 @@ public class Drivetrain extends Subsystem1816 {
     private RobotDrive robotDrive;
 
     public Drivetrain(int topLeft, int bottomLeft, int topRight, int bottomRight) {
-        this.topLeft = new CANTalon(topLeft);
-        this.topRight = new CANTalon(topRight);
-        this.bottomLeft = new CANTalon(bottomLeft);
-        this.bottomRight = new CANTalon(bottomRight);
+        this.topLeft = new ________(topLeft);
+        this.topRight = new ________(topRight);
+        this.bottomLeft = new ________(bottomLeft);
+        this.bottomRight = new ________(bottomRight);
 
-        robotDrive = new RobotDrive(this.topLeft, this.bottomLeft, this.topRight, this.bottomRight);
+        robotDrive = new ________(this.topLeft, this.bottomLeft, this.topRight, this.bottomRight);
     }
 
     @Override

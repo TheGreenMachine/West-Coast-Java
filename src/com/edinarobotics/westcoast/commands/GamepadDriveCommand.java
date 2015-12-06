@@ -33,7 +33,7 @@ public class GamepadDriveCommand extends Command {
 
     @Override
     protected boolean isFinished() {
-        return false;
+        return ________;
     }
 
     @Override
