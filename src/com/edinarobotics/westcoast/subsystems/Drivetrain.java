@@ -12,7 +12,7 @@ public class Drivetrain extends Subsystem1816 {
 
     private RobotDrive robotDrive;
 
-    public Drivetrain(int topLeft, int topRight, int bottomLeft, int bottomRight) {
+    public Drivetrain(int topLeft, int bottomLeft, int topRight, int bottomRight) {
         this.topLeft = new CANTalon(topLeft);
         this.topRight = new CANTalon(topRight);
         this.bottomLeft = new CANTalon(bottomLeft);
