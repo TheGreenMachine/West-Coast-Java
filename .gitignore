@@ -2,3 +2,5 @@
 lib1816.properties
 build/
 dist/
+.project
+.classpath
